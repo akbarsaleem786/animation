@@ -27,7 +27,7 @@ body{
     height: 100px;
     width: 100px;
     left: 55px;
-    animation: wheel linear 4s infinite;
+    animation: wheel linear .5s infinite;
 }
 
 .left{
@@ -36,7 +36,7 @@ body{
     height: 95px;
     width: 95px;
     left: 440px;
-    animation: wheel linear 4s infinite;
+    animation: wheel linear .5s infinite;
 } 
 
 
@@ -44,7 +44,7 @@ body{
 from{
     background-position: 0 0;
 } to{
-    background-position: 100% 0;
+    background-position: 10000% 0;
 }   
 }
 
